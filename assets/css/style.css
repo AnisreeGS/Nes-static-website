@@ -1,9 +1,4 @@
-/**
-* Template Name: Mentor - v2.2.1
-* Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -1598,4 +1593,21 @@ p .credit_content{
 
 .foot-content{
   justify-content: space-around;
+}
+
+
+.row-l{
+  flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media(min-width : 425px){
+  .row-l{
+  display: block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
 }
